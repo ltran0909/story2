@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+#index-img{
+	background-image: url("../pictures/island.jpg");
+	background-size: cover;
+    background-position: center;
+   	height: 100vh;
+   	width: 100%;
+}
+
+.container{
+	margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	margin-bottom: 280px;
+}
+
+.btn{
+	background-color: #556052;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+h4{
+	margin-top: 10px;
+}
+
+#intro-img{
+	background-color: #61b15a;
+	text-align: center;
+    height: 100vh;
+}
+
+.heading-1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	color: #556052;
+	padding-top: 20px;
+}
+
+.pic-1{
+	padding: 35px;
+}
+
+#ch1-A{
+	text-align: center;
+	height: 100vh;
+    background-color: #85603f;
+}
+
+ul{
+	display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul li a {
+	color: blue;
+}
+
+#ch2-A{
+	background-color: #ffff00;
+	height: 100vh;
+	text-align: center;
+}
+
+.subtitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.p1{
+	margin: 20px;
+}
+
+#ch2-B, #lose{
+	background-color: black;
+	height: 100vh;
+	color: white;
+	text-align: center;
+}
+
+#ch3-C{
+	background-color: #D3D3D3;
+	height: 100vh;
+	text-align: center;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 500px 400px;
+	grid-column-gap: 50px;
+}
+
+.item-1{
+	padding-top: 40px;
+}
+
+.item-2{
+	width: 100%;
+    margin: auto;
+}
+
+input[type=text]{
+	padding: 5px 5px;
+	border: 1px;
+  	border-radius: 4px;
+}
+
+#win{
+	background-color: #FFD700;
+	height: 100vh;
+	text-align: center;
+}
+
+#ch3-A, #ch3-B{
+	background-color: #686d76;
+	height: 100vh;
+	text-align: center;
+}
+
+table{
+	display: flex;
+    justify-content: center;
+}
+
+td{
+	border-style: solid;
+	padding: 20px;
+}
+
+input[type=checkbox]{
+	margin-top: 15px;
+}
+
+.container-2{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+    width: 50%;
+}
+
+.list{
+	margin: 20px 20px 20px 0;
+}
+
+.btn-2{
+	background-color:  #0000cd;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 8px;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+
+
+

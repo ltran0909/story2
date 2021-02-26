@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Interactive Story </title>
+	<link rel="icon" href="pictures/diamond.jpg">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script>
+		function input()
+		{
+			if(code.value == 'treasure')
+			{
+				parent.location = 'win.html';
+			}
+			else
+			{
+				parent.location = 'lose.html';
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="ch3-C">
+		<h1 class="subtitle">Chapter 3: Puzzle</h1>
+
+		<p class="p1">Jake got his hand on the treasure. Now, he need to crack the code to open the chest.</p>
+
+		<div class="grid-container">
+			<div class="item-1">
+				<img src="pictures/lock.png" width="350" class="pic-2">
+			</div>
+
+			<div class="item-2">
+				<p>Connect the numbers to the alphabet letters. For example, A=1 and so on. </p>
+				<br>
+				<p style="font-weight: bold;">20-18-5-1-19-21-18-5</p>
+				<br>
+				<div>
+					<label>Enter your answer:</label>
+					<input type="text" id="code">
+					<input type="button" value="Submit" class="btn-2" onclick="input()" style="width: 50%">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

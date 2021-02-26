@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Interactive Story </title>
+	<link rel="icon" href="pictures/diamond.jpg">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script>
+		function input()
+		{
+			if (choice2.checked)
+			{
+				parent.location="chapter3-C.html"
+			}
+			else{
+				parent.location="lose.html"
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="ch3-B">
+		<h1 class="subtitle">Chapter 3: Puzzle</h1>
+
+		<p class="p1">Find the Missing Number</p>
+		<table>
+			<tr>
+				<td>14</td>
+				<td>44</td>
+				<td>48</td>
+			</tr>
+			<tr>
+				<td>62</td>
+				<td>10</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>76</td>
+				<td><span style="color: orange;">??</span></td>
+				<td>78</td>
+			</tr>
+		</table>
+
+		<br>
+		<div>
+			<label>Choose one of the following options:</label>
+			<br>
+			<input type="checkbox"  id="choice1" name="input" value="choice1">
+			<label>34</label>
+			<br>
+			<input type="checkbox"  id="choice2" name="input" value="choice2">
+			<label>54</label>
+			<br>
+			<input type="checkbox"  id="choice3" name="input" value="choice3">
+			<label>50</label>
+			<br>
+			<input type="checkbox"  id="choice3" name="input" value="choice3">
+			<label>60</label>
+		</div>
+		<input type="button" class="btn-2" onclick="input()" value="Submit">
+	</div>
+</body>
+</html>
